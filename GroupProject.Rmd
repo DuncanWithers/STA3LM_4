@@ -1,0 +1,52 @@
+---
+title: "Group Project"
+author: "Duncan Withers"
+date: "12 September 2016"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r importData}
+# import data
+health.raw <- read.delim("~/University/2016 Semester 2/STA3LM/GroupProject/2016_app_proj_group_4.txt")
+
+#Create derived variables
+# BMI:  The BMI is defined as the body mass divided by the square of the body height
+health.raw$BMI <- health.raw$weight / (health.raw$height/100)^2
+
+# WHR: The waist-to-hip ratio  is defined as the waist measurement divided by hip measurement (W ÷ H)
+health.raw$WHR <- health.raw$waist / health.raw$hip
+
+#Add dummy variables for categorical data
+#Gender
+health.raw$gender = factor(health.raw$gender, labels=c("Female", "Male"))
+contrasts(health.raw$gender) = contr.treatment(2)
+
+#Ethnicity
+health.raw$ethnic = factor(health.raw$ethnic, labels=c("Chinese", "Indian", "Malay"))
+contrasts(health.raw$ethnic) = contr.treatment(3)
+
+#Hypertension
+health.raw$hypertension = factor(health.raw$hypertension, labels=c("No", "Yes"))
+contrasts(health.raw$hypertension) = contr.treatment(2)
+
+#Drink
+health.raw$drink = factor(health.raw$drink, labels=c("No", "Yes"))
+contrasts(health.raw$drink) = contr.treatment(2)
+
+#Smoking
+health.raw$currsmoke = factor(health.raw$currsmoke, labels=c("Current smoker", "Not a Current Smoker"))
+contrasts(health.raw$currsmoke) = contr.treatment(2)
+
+
+reqFields=c("hdl", "age", "BMI", "WHR",  "gender", "ethnic", "hypertension", "drink", "currsmoke")
+
+health.data <- health.raw[reqFields]
+
+health.lm <- lm(hdl~.,data=health.data)
+summary(health.lm)
+
+```

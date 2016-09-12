@@ -1,0 +1,426 @@
+"gender"	"ethnic"	"height"	"weight"	"waist"	"hip"	"hdl"	"hypertension"	"drink"	"currsmoke"	"age"
+"male"	"chinese"	168.7	64.300003	92	95	0.82999998	"no"	"no"	"Current smoker"	74.46954
+"male"	"chinese"	163.2	56.400002	75	88	1.03	"no"	"no"	"Current smoker"	34.89938
+"female"	"indian"	139.89999	73.199997	94	115	1.62	"no"	"no"	"Not a current smoker"	69.21835
+"female"	"indian"	163.05	58.099998	68.75	99	0.86000001	"no"	"no"	"Not a current smoker"	20.22998
+"male"	"chinese"	171.2	85	100.75	108	0.94	"no"	"yes"	"Not a current smoker"	42.37919
+"male"	"indian"	163.60001	73.400002	94.25	104	1.11	"no"	"no"	"Not a current smoker"	31.02806
+"female"	"chinese"	148.25	41.400002	61	86.050003	1	"no"	"no"	"Not a current smoker"	19.64682
+"male"	"indian"	170.05	76.699997	93.5	99	0.88	"yes"	"no"	"Not a current smoker"	69.35797
+"male"	"chinese"	160.60001	58.5	82.5	88.5	0.81999999	"no"	"no"	"Current smoker"	53.36893
+"female"	"chinese"	163.60001	45.599998	58	91	1.37	"no"	"yes"	"Not a current smoker"	29.72758
+"female"	"indian"	151.5	58.299999	73.5	99	0.98000002	"no"	"no"	"Not a current smoker"	44.74743
+"female"	"indian"	159.3	51.799999	69	97	0.92000002	"no"	"no"	"Current smoker"	35.62218
+"male"	"chinese"	171.7	52.299999	72	89	1.77	"no"	"yes"	"Not a current smoker"	44.23819
+"male"	"chinese"	154.60001	55.099998	82	88	0.67000002	"no"	"no"	"Current smoker"	57.27584
+"male"	"chinese"	166	68.099998	80	96	0.80000001	"no"	"no"	"Current smoker"	37.013
+"female"	"chinese"	154.60001	56.900002	67	94	1.01	"no"	"no"	"Not a current smoker"	24.46544
+"male"	"chinese"	161	58.700001	83	90	1.04	"no"	"no"	"Not a current smoker"	54.30527
+"male"	"chinese"	179.3	86.699997	82	106.5	1.01	"no"	"yes"	"Current smoker"	21.17728
+"male"	"chinese"	163.35001	79.900002	101.5	109	0.76999998	"no"	"no"	"Not a current smoker"	64.37782
+"female"	"chinese"	150	55	74	98	1.42	"no"	"no"	"Current smoker"	35.89596
+"male"	"malay"	165.10001	49.5	62	83.5	1.12	"no"	"no"	"Current smoker"	33.86174
+"male"	"chinese"	167	64.5	86	96	2.54	"no"	"no"	"Current smoker"	78.74332
+"female"	"indian"	161.89999	66.699997	72.5	103	1.15	"no"	"no"	"Not a current smoker"	35.70979
+"female"	"chinese"	153.3	48.099998	68	89.25	1.26	"no"	"no"	"Not a current smoker"	68.17796
+"female"	"indian"	159.7	89	105	109	1.1	"yes"	"no"	"Not a current smoker"	60.26557
+"female"	"chinese"	161.8	48.099998	64	93	1.5700001	"no"	"no"	"Not a current smoker"	40.75565
+"male"	"malay"	159.2	82	105	119.5	1.29	"yes"	"no"	"Not a current smoker"	65.23477
+"male"	"chinese"	160.2	49.799999	65	86.5	1.39	"no"	"no"	"Not a current smoker"	19.73717
+"female"	"chinese"	165.2	50.400002	61	90	1.14	"no"	"no"	"Not a current smoker"	24.61054
+"male"	"chinese"	170	71.800003	75	98	0.80000001	"no"	"yes"	"Not a current smoker"	22.07803
+"male"	"chinese"	180	68.5	83	99	1.58	"no"	"yes"	"Not a current smoker"	31.87953
+"female"	"indian"	151.95	53.700001	67	100.75	1.14	"no"	"no"	"Not a current smoker"	23.76181
+"female"	"indian"	166.64999	58	64.75	99.5	1.47	"no"	"no"	"Not a current smoker"	18.22861
+"female"	"chinese"	154.05	57.799999	75.75	99	1.16	"no"	"no"	"Current smoker"	34.09719
+"male"	"indian"	170.25	62.900002	77.5	95	1.0700001	"no"	"yes"	"Not a current smoker"	34.00684
+"female"	"malay"	153.7	47	60	94	1.46	"no"	"no"	"Not a current smoker"	31.44969
+"female"	"indian"	157.05	47.5	59	89	1.36	"no"	"no"	"Not a current smoker"	22.10267
+"male"	"chinese"	172.10001	68.699997	88	95	1.11	"yes"	"no"	"Not a current smoker"	64.39425
+"male"	"chinese"	161.3	62.599998	76	95	1.03	"no"	"no"	"Not a current smoker"	26.41478
+"female"	"malay"	157.2	69.699997	77	102	1.0599999	"no"	"no"	"Not a current smoker"	44.96099
+"male"	"chinese"	152.14999	58.900002	88.5	96	0.93000001	"no"	"no"	"Current smoker"	57.21834
+"female"	"malay"	155	61.400002	88.5	100	0.58999997	"no"	"no"	"Not a current smoker"	58.70773
+"female"	"chinese"	157	62.700001	78	100	1.77	"no"	"no"	"Not a current smoker"	42.65298
+"female"	"indian"	161.85001	68.199997	78.75	105	1.22	"no"	"no"	"Not a current smoker"	35.51266
+"male"	"indian"	177.7	79.599998	91	104	1.05	"no"	"yes"	"Current smoker"	35.40589
+"male"	"chinese"	188	65.599998	77.099998	96.25	1.49	"no"	"yes"	"Not a current smoker"	38.28611
+"female"	"chinese"	154.5	89.599998	101	120	1.25	"no"	"no"	"Not a current smoker"	36.58864
+"female"	"chinese"	165.55	58.599998	65.75	96.5	1.79	"no"	"yes"	"Not a current smoker"	26.14647
+"female"	"chinese"	153.14999	46.700001	61	95	1.3	"no"	"yes"	"Not a current smoker"	29.50856
+"female"	"chinese"	160.2	46.299999	59	90	1.74	"no"	"no"	"Not a current smoker"	30.05886
+"female"	"chinese"	164.85001	48.799999	62	91	1.6799999	"no"	"yes"	"Not a current smoker"	39.52361
+"male"	"indian"	176.39999	95.300003	102.5	112	0.87	"no"	"yes"	"Current smoker"	33.82615
+"female"	"chinese"	164.25	66.599998	74.5	100.5	1.22	"no"	"no"	"Not a current smoker"	38.88296
+"male"	"indian"	170.39999	68	88	98	1.02	"no"	"no"	"Not a current smoker"	56.27378
+"male"	"indian"	165.14999	57.599998	78.5	89	0.74000001	"no"	"yes"	"Not a current smoker"	62.23682
+"male"	"malay"	163.10001	68	90	97	0.80000001	"no"	"no"	"Not a current smoker"	63.65777
+"female"	"malay"	146.10001	51.799999	71.25	90.050003	1.05	"no"	"no"	"Not a current smoker"	31.45517
+"female"	"chinese"	155.3	64.099998	82.5	102.5	1.37	"no"	"yes"	"Not a current smoker"	42.91581
+"female"	"malay"	144.10001	64.699997	77	107	1.47	"no"	"no"	"Not a current smoker"	27.44695
+"female"	"malay"	152.14999	65.400002	83	104	1.52	"no"	"no"	"Not a current smoker"	53.7358
+"female"	"indian"	165.05	88	100.75	114.5	1.1	"no"	"no"	"Not a current smoker"	55.46886
+"male"	"chinese"	169.10001	63.900002	77	91.75	1.14	"no"	"no"	"Not a current smoker"	41.52772
+"female"	"chinese"	150.10001	49.299999	76	91	0.82999998	"no"	"no"	"Not a current smoker"	42.95688
+"male"	"chinese"	168.10001	76.599998	88	98	0.73000002	"yes"	"no"	"Not a current smoker"	57.41547
+"male"	"chinese"	176.7	81.800003	91.5	104	1.16	"no"	"yes"	"Current smoker"	31.50992
+"male"	"chinese"	182.39999	75.5	82.5	97	0.97000003	"yes"	"no"	"Not a current smoker"	28.06297
+"male"	"indian"	158.05	45.099998	64	82	1.34	"no"	"no"	"Not a current smoker"	50.28337
+"female"	"malay"	152.55	42.700001	59	90	1.84	"no"	"no"	"Not a current smoker"	31.90144
+"female"	"indian"	155.7	65.699997	82	105	0.88	"yes"	"no"	"Not a current smoker"	44.88159
+"female"	"indian"	155.14999	61.599998	81	95	1.45	"no"	"no"	"Not a current smoker"	43.92608
+"female"	"indian"	160.10001	73.300003	91	106	1.25	"no"	"no"	"Not a current smoker"	42.17933
+"male"	"indian"	162.60001	67.900002	87	95.5	1.02	"no"	"no"	"Not a current smoker"	44.68172
+"male"	"malay"	161.14999	84	93	107	1.14	"no"	"no"	"Not a current smoker"	28.91992
+"female"	"chinese"	162	58.5	70	101	1.36	"no"	"no"	"Not a current smoker"	27.60849
+"male"	"malay"	175.35001	58.299999	71	92	1.63	"no"	"no"	"Current smoker"	36.87337
+"female"	"indian"	152.39999	68	87.5	109	0.63999999	"no"	"no"	"Current smoker"	65.38809
+"male"	"indian"	160.3	79.800003	97.5	100	0.63999999	"no"	"yes"	"Not a current smoker"	44.19165
+"male"	"chinese"	167.55	70.699997	94.75	101	0.77999997	"yes"	"no"	"Not a current smoker"	62.07255
+"female"	"chinese"	159.2	57.400002	76	95.5	1.1900001	"no"	"no"	"Not a current smoker"	31.24162
+"male"	"chinese"	148.2	54	89.099998	92.050003	0.75999999	"no"	"no"	"Current smoker"	34.69678
+"male"	"chinese"	160.39999	42.200001	61.75	83.25	1.6900001	"no"	"no"	"Not a current smoker"	63.53456
+"female"	"chinese"	155.2	48.5	65	93	1.74	"no"	"no"	"Not a current smoker"	53.2512
+"male"	"malay"	160.8	73.5	95	102	0.93000001	"yes"	"no"	"Current smoker"	68.30938
+"female"	"indian"	156.2	65.900002	74.650002	103.7	1.3099999	"no"	"no"	"Not a current smoker"	60.44901
+"male"	"chinese"	160.8	51.400002	69	86	1.14	"no"	"yes"	"Not a current smoker"	39.83847
+"female"	"chinese"	152.3	58.700001	72.25	96	1.05	"no"	"no"	"Not a current smoker"	46.4887
+"male"	"malay"	169	50.799999	64	86	1.46	"no"	"no"	"Not a current smoker"	39.78097
+"male"	"indian"	163.3	58.599998	87	89.5	0.51999998	"no"	"yes"	"Not a current smoker"	42.63655
+"male"	"chinese"	168.8	65.099998	73	95	1.14	"no"	"yes"	"Not a current smoker"	22.01232
+"male"	"indian"	168.8	67.900002	90	97	1.0599999	"no"	"yes"	"Current smoker"	61.01848
+"male"	"malay"	165.5	55.400002	72.5	90	0.94999999	"no"	"no"	"Not a current smoker"	33.24025
+"female"	"malay"	161.3	58.400002	71	98	1.53	"no"	"no"	"Not a current smoker"	34.19849
+"female"	"chinese"	168.10001	71.800003	80.5	101	0.95999998	"no"	"no"	"Not a current smoker"	37.92197
+"male"	"indian"	167.3	68.199997	86.5	96	0.89999998	"yes"	"no"	"Not a current smoker"	60.64613
+"female"	"malay"	157	61.700001	76.5	100	1.17	"no"	"no"	"Not a current smoker"	36.43532
+"male"	"chinese"	167.39999	75.5	91	100.5	0.99000001	"no"	"no"	"Current smoker"	37.57974
+"female"	"indian"	147.55	49.299999	74.25	83.25	1.47	"no"	"no"	"Current smoker"	61.23477
+"female"	"chinese"	152.5	50.099998	67.75	93	1.2	"no"	"no"	"Not a current smoker"	57.50856
+"female"	"malay"	147.5	67.400002	92.5	108.5	0.83999997	"no"	"no"	"Not a current smoker"	43.61123
+"female"	"chinese"	152.2	45.400002	64	91	1.12	"no"	"no"	"Current smoker"	46.52977
+"female"	"chinese"	152.85001	68.699997	85.5	104	1.05	"no"	"yes"	"Current smoker"	58.08898
+"male"	"chinese"	161.8	56.200001	71.75	89.25	1.6799999	"no"	"yes"	"Not a current smoker"	27.436
+"male"	"indian"	166.14999	62.200001	87.5	97	0.86000001	"yes"	"no"	"Not a current smoker"	51.70705
+"male"	"chinese"	163.05	53.900002	79	89	0.95999998	"no"	"yes"	"Current smoker"	51.61396
+"female"	"chinese"	155.64999	59.599998	70	101	1.34	"no"	"no"	"Not a current smoker"	56.35318
+"male"	"chinese"	165	60.5	77.5	92	1.0599999	"no"	"no"	"Not a current smoker"	59.79466
+"female"	"chinese"	160.10001	74.599998	89	103	0.61000001	"yes"	"no"	"Not a current smoker"	57.47023
+"female"	"indian"	145	51.700001	79	91	0.95999998	"no"	"no"	"Not a current smoker"	62.34908
+"male"	"chinese"	181.7	85.5	96.5	103.5	1.02	"no"	"yes"	"Not a current smoker"	30.0397
+"male"	"malay"	168	63.5	78	92	0.99000001	"no"	"no"	"Current smoker"	35.16769
+"female"	"malay"	158.39999	72.800003	88	102	0.66000003	"no"	"no"	"Not a current smoker"	46.59274
+"male"	"chinese"	168	61.200001	79.5	93	1.2	"no"	"yes"	"Not a current smoker"	43.06366
+"female"	"chinese"	163.14999	53.200001	73	92	1.41	"no"	"no"	"Current smoker"	57.33881
+"male"	"indian"	159.39999	64.300003	88	94	0.81	"yes"	"no"	"Not a current smoker"	64.10404
+"female"	"indian"	157.10001	92	110	124	0.62	"no"	"no"	"Not a current smoker"	38.48597
+"male"	"malay"	160	61.900002	83	89	0.94	"yes"	"no"	"Not a current smoker"	63.28268
+"female"	"chinese"	160.75	65.5	90.5	101	0.97000003	"no"	"no"	"Not a current smoker"	62.11362
+"male"	"chinese"	169.8	84.099998	96	105.5	0.82999998	"no"	"no"	"Current smoker"	35.30458
+"male"	"malay"	160.3	78.400002	97	100	0.79000002	"no"	"no"	"Not a current smoker"	40.42984
+"female"	"malay"	146.60001	51.099998	66	94	1.1799999	"no"	"no"	"Not a current smoker"	38.14921
+"male"	"chinese"	163	56.299999	75	89	0.97000003	"yes"	"no"	"Current smoker"	46.75702
+"male"	"chinese"	161.39999	66.400002	88.75	98	1	"no"	"no"	"Not a current smoker"	63.35113
+"female"	"indian"	153.10001	57.5	82.099998	102.1	1.1	"no"	"no"	"Not a current smoker"	31.00342
+"male"	"chinese"	181.3	76.099998	86	99	1.3099999	"no"	"no"	"Not a current smoker"	56.22998
+"male"	"chinese"	170.45	71.5	75	100	1.33	"no"	"yes"	"Not a current smoker"	18.55989
+"female"	"malay"	153	85.599998	105.5	99.900002	0.68000001	"no"	"no"	"Not a current smoker"	41.15263
+"female"	"chinese"	153.3	57	73	98	1.09	"no"	"no"	"Current smoker"	47.08008
+"female"	"malay"	151.7	59.599998	79.5	99	0.77999997	"no"	"no"	"Not a current smoker"	39.38672
+"male"	"indian"	153.3	44.299999	69.5	80	0.80000001	"no"	"no"	"Not a current smoker"	32.69268
+"male"	"indian"	182	72.900002	75	96	1.67	"no"	"yes"	"Not a current smoker"	42.4449
+"male"	"indian"	172	84.199997	94.75	108	0.89999998	"no"	"no"	"Not a current smoker"	39.04175
+"male"	"chinese"	170.95	78	84	100	0.74000001	"yes"	"yes"	"Not a current smoker"	50.92403
+"female"	"indian"	149.2	84.599998	124.5	129	0.69	"no"	"no"	"Current smoker"	60.7091
+"male"	"chinese"	172	53.900002	69	88	1.54	"no"	"yes"	"Not a current smoker"	32.5065
+"female"	"malay"	144.35001	53.5	70.5	92	1.16	"no"	"no"	"Not a current smoker"	47.77823
+"male"	"malay"	166.2	76.199997	97.5	104	0.75999999	"yes"	"no"	"Not a current smoker"	57.27858
+"female"	"chinese"	161.25	64.400002	80	98	1.3099999	"yes"	"no"	"Not a current smoker"	63.22245
+"male"	"malay"	169.25	61.400002	84.099998	99	1.04	"no"	"no"	"Not a current smoker"	44.97741
+"male"	"chinese"	168.64999	75.400002	88	101	0.88	"no"	"no"	"Not a current smoker"	37.0486
+"female"	"indian"	152.8	70.199997	82	108	1.23	"no"	"no"	"Not a current smoker"	44.6872
+"male"	"malay"	170.3	55.099998	68	88.75	1.14	"no"	"no"	"Not a current smoker"	17.88912
+"male"	"malay"	175.5	94.099998	103.5	110.5	1.08	"no"	"no"	"Not a current smoker"	53.11978
+"female"	"chinese"	155.7	38.5	62	85.5	0.88	"no"	"yes"	"Current smoker"	56.2245
+"male"	"chinese"	169.55	75.800003	89	96.25	0.85000002	"yes"	"no"	"Not a current smoker"	45.20465
+"female"	"chinese"	154.25	62.299999	79.800003	103.55	1.22	"no"	"no"	"Not a current smoker"	38.79535
+"female"	"malay"	155.85001	48.799999	63.5	91	1.13	"no"	"no"	"Current smoker"	33.5113
+"male"	"chinese"	168.5	47.900002	63.5	82	1.1900001	"no"	"yes"	"Not a current smoker"	22.49418
+"male"	"indian"	178.25	103	104	120	0.80000001	"no"	"no"	"Not a current smoker"	30.23956
+"female"	"chinese"	172.5	80	85	105	1.14	"no"	"no"	"Not a current smoker"	25.6564
+"male"	"malay"	171	74.699997	82	101	0.89999998	"no"	"no"	"Not a current smoker"	30.2204
+"male"	"indian"	173.10001	98.599998	104.5	109.5	0.61000001	"no"	"no"	"Current smoker"	47.69336
+"female"	"chinese"	147.8	82.599998	102.25	124	1.04	"yes"	"no"	"Not a current smoker"	48.82409
+"male"	"chinese"	167.5	71.199997	84	100	1.0700001	"no"	"no"	"Not a current smoker"	59.61123
+"female"	"chinese"	155.5	51.400002	63	91	1.48	"no"	"no"	"Not a current smoker"	51.6386
+"male"	"chinese"	159.05	43.400002	62.549999	80.099998	1.33	"no"	"no"	"Not a current smoker"	26.25873
+"male"	"indian"	152	63.5	96	96.5	0.51999998	"no"	"no"	"Not a current smoker"	63.54552
+"male"	"malay"	171.2	61.299999	85	87.5	1.1799999	"yes"	"no"	"Not a current smoker"	60.56673
+"male"	"chinese"	154.3	61.799999	81	93	1.12	"no"	"yes"	"Current smoker"	56.18344
+"male"	"indian"	166.60001	78.900002	95	104.25	0.82999998	"no"	"no"	"Not a current smoker"	46.23135
+"male"	"indian"	173.95	59.299999	70	91	1.52	"no"	"no"	"Not a current smoker"	54.59274
+"male"	"chinese"	174.3	83.900002	91.5	106	1.17	"no"	"no"	"Not a current smoker"	42.02875
+"male"	"chinese"	172.95	53.599998	67	89	1.13	"no"	"no"	"Current smoker"	33.41547
+"female"	"malay"	168	65	72	107	1.88	"no"	"no"	"Not a current smoker"	28.9473
+"male"	"chinese"	170.2	66.599998	84	94	1.0599999	"no"	"yes"	"Not a current smoker"	40.42163
+"female"	"chinese"	154.95	47.299999	62.5	92	1.39	"no"	"no"	"Not a current smoker"	20.33949
+"female"	"chinese"	167.25	71.800003	79	110	1.05	"no"	"no"	"Not a current smoker"	39.44422
+"male"	"indian"	167.2	76.300003	93	100	0.99000001	"no"	"no"	"Not a current smoker"	50.46407
+"female"	"indian"	162.60001	63.400002	81.5	101.5	1.35	"yes"	"no"	"Current smoker"	53.07871
+"male"	"chinese"	156.2	72.800003	93.650002	99.599998	1.1	"yes"	"no"	"Not a current smoker"	54.57906
+"female"	"chinese"	158.25	54.099998	75	94	2.0999999	"no"	"yes"	"Not a current smoker"	44.56947
+"female"	"indian"	152	60.799999	88	96.5	0.80000001	"no"	"no"	"Not a current smoker"	51.71526
+"female"	"chinese"	155	41.700001	57	89	1.98	"no"	"no"	"Not a current smoker"	22.69405
+"male"	"indian"	153.7	69.699997	98	99	0.69	"yes"	"no"	"Not a current smoker"	57.2731
+"female"	"malay"	154.7	57.400002	76.75	93	1.29	"no"	"no"	"Not a current smoker"	40.75565
+"female"	"chinese"	155.75	59.099998	73.25	101	0.94999999	"no"	"no"	"Not a current smoker"	20.22177
+"female"	"chinese"	156.45	43.599998	56.5	90	1.79	"no"	"no"	"Not a current smoker"	26.56263
+"male"	"chinese"	174.39999	69.800003	73	93	1.4400001	"no"	"yes"	"Not a current smoker"	19.30732
+"male"	"chinese"	154.05	66.099998	90	98	1.17	"no"	"no"	"Current smoker"	66.28063
+"male"	"chinese"	177.55	75.300003	87.75	103	1.02	"no"	"yes"	"Not a current smoker"	45.88912
+"male"	"malay"	174.5	70.800003	77	98	0.86000001	"no"	"no"	"Not a current smoker"	25.01574
+"female"	"indian"	148.7	77	95.5	111.5	1.1	"no"	"no"	"Not a current smoker"	55.06639
+"male"	"chinese"	158	57	79	90	0.87	"no"	"no"	"Current smoker"	59.32375
+"female"	"chinese"	156	62.599998	79.400002	99.050003	1.11	"no"	"no"	"Not a current smoker"	42.65845
+"male"	"chinese"	160.55	47.799999	66.5	84.550003	1.1	"no"	"yes"	"Not a current smoker"	19.68789
+"male"	"indian"	171.3	57.400002	76	93.25	1.24	"no"	"no"	"Not a current smoker"	66.53525
+"male"	"chinese"	159.2	65.900002	93.5	96	0.70999998	"no"	"yes"	"Not a current smoker"	49.58795
+"female"	"malay"	166.60001	72	91	95	0.98000002	"yes"	"no"	"Not a current smoker"	46.19028
+"male"	"chinese"	154.8	69.300003	100	109	0.89999998	"yes"	"no"	"Not a current smoker"	67.1896
+"male"	"chinese"	157.89999	55.599998	81.5	90	1.4400001	"no"	"yes"	"Not a current smoker"	65.39356
+"female"	"chinese"	158.5	79.800003	85	108	1.26	"no"	"no"	"Not a current smoker"	35.8193
+"male"	"indian"	166.10001	77.199997	97	104.5	1.0700001	"no"	"no"	"Not a current smoker"	63.22519
+"female"	"malay"	152.39999	43.400002	59	90	1.74	"no"	"no"	"Not a current smoker"	21.97125
+"female"	"indian"	155	57.599998	81	97	0.79000002	"no"	"no"	"Not a current smoker"	61.52498
+"male"	"chinese"	169.05	62.5	82	95	0.81	"no"	"yes"	"Not a current smoker"	48.31485
+"female"	"indian"	156.75	53.099998	73	93	1.3	"no"	"yes"	"Not a current smoker"	40.67899
+"male"	"chinese"	154.64999	58.700001	90	92	1.14	"no"	"no"	"Not a current smoker"	53.40178
+"female"	"chinese"	161.8	52.5	63	95	1.54	"no"	"no"	"Not a current smoker"	20.92539
+"male"	"chinese"	168.85001	68.300003	85.5	97	1.47	"no"	"no"	"Not a current smoker"	44.90349
+"female"	"malay"	150.14999	58.5	82	98	1.04	"no"	"no"	"Current smoker"	65.2731
+"female"	"chinese"	166	47	58	89	1.33	"no"	"no"	"Not a current smoker"	22.35729
+"female"	"malay"	149.55	58.799999	74	105	1.6	"no"	"no"	"Not a current smoker"	59.27173
+"female"	"indian"	152.55	53.799999	68	92	1.47	"no"	"no"	"Not a current smoker"	23.50992
+"male"	"chinese"	177.35001	58	69.5	92	1.0700001	"no"	"yes"	"Not a current smoker"	35.97262
+"male"	"chinese"	167.14999	73.400002	87	98	1.09	"no"	"no"	"Not a current smoker"	40.93087
+"male"	"chinese"	175.3	65.699997	82.650002	96.599998	1.65	"no"	"no"	"Not a current smoker"	60.81862
+"male"	"chinese"	172	53.299999	64.5	89	1.42	"no"	"no"	"Not a current smoker"	25.97673
+"male"	"chinese"	147	73.800003	106	103	0.81	"no"	"yes"	"Current smoker"	34.74606
+"male"	"chinese"	158.10001	57	86.550003	92.5	1.0599999	"no"	"yes"	"Not a current smoker"	63.29364
+"female"	"chinese"	156.55	64.800003	75	111	1.45	"no"	"yes"	"Not a current smoker"	35.5729
+"male"	"chinese"	167.8	59.700001	72	92.75	1.13	"no"	"yes"	"Not a current smoker"	30.69678
+"male"	"chinese"	176.25	68.699997	72	96	0.92000002	"no"	"yes"	"Not a current smoker"	25.85353
+"male"	"malay"	165.14999	75.099998	89	101	0.83999997	"no"	"no"	"Current smoker"	33.71937
+"male"	"malay"	166.10001	69.099998	73	98	1.74	"no"	"no"	"Not a current smoker"	23.73717
+"female"	"chinese"	161	45.900002	66.25	88	1.42	"no"	"no"	"Not a current smoker"	22.93771
+"male"	"chinese"	157.3	56	82	92.75	1.02	"yes"	"no"	"Not a current smoker"	69.27858
+"female"	"chinese"	155.89999	44.700001	70.550003	91.099998	1.46	"no"	"no"	"Not a current smoker"	32.39425
+"male"	"chinese"	174.8	81.5	89	104	1.21	"no"	"yes"	"Not a current smoker"	28.71732
+"male"	"malay"	176.35001	57.200001	66.5	90.5	1.05	"no"	"yes"	"Not a current smoker"	23.32923
+"male"	"chinese"	164.45	67.800003	84	97.5	1.05	"yes"	"no"	"Not a current smoker"	66.92403
+"male"	"chinese"	174.25	75	89	99	0.94999999	"no"	"yes"	"Not a current smoker"	34.89664
+"male"	"chinese"	165.7	51.900002	75.5	85.5	0.69999999	"no"	"no"	"Current smoker"	62.49692
+"male"	"indian"	170.60001	73.099998	90	95	1.0700001	"no"	"yes"	"Current smoker"	41.52772
+"male"	"chinese"	171.55	75.400002	88.5	101.75	0.63999999	"no"	"no"	"Not a current smoker"	37.42368
+"female"	"chinese"	151.14999	56.799999	76	96	1.16	"no"	"yes"	"Not a current smoker"	47.47433
+"male"	"chinese"	176.14999	69.5	77	99.75	1.04	"no"	"yes"	"Not a current smoker"	26.7707
+"male"	"malay"	162	64	85.5	91	0.61000001	"yes"	"no"	"Not a current smoker"	41.31964
+"female"	"indian"	146.5	46.400002	74	91	0.97000003	"yes"	"no"	"Not a current smoker"	50.33265
+"female"	"chinese"	151.39999	55.299999	81.599998	93.550003	0.94999999	"no"	"no"	"Current smoker"	61.30322
+"female"	"chinese"	162.14999	54	66	95	1.88	"no"	"no"	"Not a current smoker"	42.81451
+"male"	"chinese"	177.39999	57.5	69.5	91	1.21	"no"	"yes"	"Not a current smoker"	30.83094
+"female"	"indian"	149	89.900002	113	134	1.1900001	"yes"	"no"	"Not a current smoker"	67.48528
+"female"	"chinese"	152.25	47.799999	68.5	89	1.38	"no"	"no"	"Current smoker"	54.29706
+"male"	"chinese"	173.5	61.900002	74	97	1.0700001	"no"	"no"	"Not a current smoker"	26.75702
+"female"	"chinese"	160	55.099998	82.099998	89.599998	1.05	"no"	"no"	"Current smoker"	58.18481
+"female"	"malay"	158	61	73.5	99	1.13	"no"	"no"	"Current smoker"	21.47844
+"male"	"malay"	166.55	60.400002	75.5	91	0.88999999	"no"	"no"	"Not a current smoker"	63.28268
+"female"	"indian"	148.39999	54.5	70.5	95	1.1900001	"no"	"no"	"Not a current smoker"	48.53388
+"male"	"chinese"	165.10001	77.900002	91	100.5	1.23	"yes"	"no"	"Current smoker"	49.35798
+"male"	"chinese"	164.85001	65.900002	77.5	101	1.35	"no"	"yes"	"Not a current smoker"	25.24025
+"male"	"malay"	158.35001	53.799999	66.5	90	1.1900001	"no"	"yes"	"Current smoker"	21.35524
+"male"	"indian"	171	88.400002	101	111	0.80000001	"no"	"no"	"Not a current smoker"	35.46886
+"female"	"chinese"	161.2	61.099998	77	97	1.26	"no"	"yes"	"Current smoker"	48.01917
+"female"	"chinese"	162.3	59.700001	78	97	1.42	"no"	"no"	"Current smoker"	52.25736
+"male"	"malay"	155.39999	65.699997	90.5	97.5	1.3200001	"no"	"no"	"Not a current smoker"	65.66735
+"male"	"chinese"	160.45	58.5	83	92	1.3	"no"	"no"	"Not a current smoker"	48.88433
+"female"	"malay"	143.45	48.200001	65	95	1.36	"no"	"no"	"Not a current smoker"	63.32649
+"male"	"chinese"	155.25	62.200001	88.5	95	0.56999999	"no"	"yes"	"Not a current smoker"	68.6872
+"female"	"chinese"	161.95	48.599998	65.75	89	1.25	"no"	"no"	"Current smoker"	35.21971
+"male"	"malay"	166.45	54.200001	67	88	1.28	"no"	"no"	"Not a current smoker"	23.76728
+"female"	"malay"	162.3	71.599998	87	104.5	1.13	"no"	"no"	"Not a current smoker"	62.27789
+"male"	"malay"	176.14999	52.299999	73.099998	86.300003	1.26	"no"	"yes"	"Not a current smoker"	22.49966
+"male"	"chinese"	155	50.099998	78.550003	87.300003	1.0599999	"no"	"yes"	"Not a current smoker"	38.75975
+"female"	"indian"	160	72.300003	89	110.5	0.76999998	"no"	"no"	"Not a current smoker"	38.10815
+"male"	"indian"	157.5	59.299999	84.5	89	0.70999998	"no"	"yes"	"Current smoker"	66.66666
+"male"	"indian"	162.10001	56.200001	81	86	0.88	"yes"	"yes"	"Not a current smoker"	62.40931
+"male"	"indian"	168.35001	70.599998	86.25	99	1.17	"no"	"yes"	"Current smoker"	48.53114
+"male"	"indian"	173.89999	70.900002	88	94	0.50999999	"no"	"yes"	"Not a current smoker"	45.10336
+"male"	"chinese"	165.3	73.699997	92.5	100.5	0.79000002	"no"	"no"	"Not a current smoker"	52.29569
+"male"	"malay"	155	75.099998	102.5	101	0.69	"no"	"no"	"Not a current smoker"	59.24162
+"male"	"indian"	163.60001	58.5	85	90.5	0.58999997	"yes"	"no"	"Not a current smoker"	65.63176
+"female"	"indian"	148.8	67.800003	90.5	104.5	0.87	"no"	"no"	"Not a current smoker"	41.50856
+"female"	"indian"	161.05	59.5	69	101	1.25	"no"	"yes"	"Not a current smoker"	18.47502
+"male"	"chinese"	171.55	71.5	86	95	1.15	"no"	"yes"	"Current smoker"	34.63655
+"male"	"chinese"	168.55	68.599998	82	96	0.76999998	"no"	"yes"	"Not a current smoker"	46.21218
+"male"	"indian"	172.5	71.699997	82	96	1.12	"no"	"no"	"Not a current smoker"	41.96578
+"male"	"malay"	161.75	77.099998	99	104	1.52	"no"	"no"	"Not a current smoker"	67.28816
+"male"	"chinese"	168.39999	61.5	78.5	94	1.05	"no"	"no"	"Not a current smoker"	28.82683
+"male"	"chinese"	162.95	70.900002	88.5	99	0.56	"yes"	"no"	"Not a current smoker"	55.24162
+"female"	"chinese"	157.14999	46.799999	71	86	1.83	"no"	"no"	"Not a current smoker"	58.23135
+"male"	"indian"	170.05	77.400002	90	100	1.1799999	"no"	"no"	"Not a current smoker"	42.7269
+"male"	"chinese"	164.14999	55.799999	67	88	1.05	"no"	"yes"	"Not a current smoker"	22.11636
+"male"	"chinese"	164.3	62.5	78.75	93	0.94	"no"	"no"	"Not a current smoker"	39.41684
+"male"	"chinese"	170.45	62.799999	79.599998	90.550003	0.81	"no"	"yes"	"Not a current smoker"	32.03286
+"male"	"chinese"	171.39999	72.900002	95.5	98.5	0.88999999	"no"	"no"	"Not a current smoker"	59.12936
+"female"	"chinese"	151.55	52.900002	66	96	1.37	"no"	"no"	"Not a current smoker"	38.28885
+"male"	"indian"	171	81.599998	102	103	0.91000003	"yes"	"yes"	"Not a current smoker"	40.69542
+"female"	"chinese"	156.95	45.599998	60.5	89.5	1.52	"no"	"yes"	"Current smoker"	34.02601
+"male"	"chinese"	173.35001	64.099998	75.550003	95.5	1.2	"no"	"yes"	"Not a current smoker"	31.66324
+"female"	"indian"	160.8	57.5	77.5	98.5	0.63999999	"no"	"no"	"Not a current smoker"	43.63039
+"female"	"malay"	159.25	72.5	88.599998	106.15	0.81	"no"	"no"	"Not a current smoker"	42.41205
+"male"	"malay"	171.8	66.5	80	95	1.0700001	"no"	"yes"	"Not a current smoker"	36.55852
+"male"	"malay"	161.10001	60.400002	79.5	96	1.47	"no"	"no"	"Not a current smoker"	28.74196
+"female"	"malay"	151.05	61	79	97	1.09	"no"	"no"	"Not a current smoker"	44.40794
+"female"	"chinese"	159.55	54	66	97.5	1.8	"no"	"no"	"Current smoker"	49.50308
+"female"	"indian"	157.95	59.5	74	99	1.14	"no"	"no"	"Not a current smoker"	33.42094
+"male"	"indian"	180	72.300003	89.5	86.5	1.0700001	"no"	"no"	"Not a current smoker"	29.8371
+"male"	"chinese"	160.7	62.5	81.5	93.5	0.76999998	"no"	"no"	"Not a current smoker"	32.10951
+"male"	"chinese"	168.10001	73.800003	92.550003	102.7	1.02	"no"	"no"	"Not a current smoker"	65.30322
+"female"	"indian"	156	55	70.75	98.5	0.92000002	"no"	"yes"	"Not a current smoker"	39.49623
+"male"	"malay"	162.5	63.299999	88	93	0.56	"no"	"no"	"Not a current smoker"	64.30664
+"male"	"chinese"	165	69.5	88.099998	99.599998	1.21	"no"	"yes"	"Current smoker"	34.93224
+"female"	"chinese"	154.60001	57.700001	73	95	1.15	"no"	"no"	"Not a current smoker"	41.79329
+"male"	"chinese"	164	57.799999	79.5	89.5	1.0599999	"no"	"no"	"Not a current smoker"	33.21561
+"male"	"indian"	160.39999	63.299999	82	99	1.0700001	"no"	"no"	"Not a current smoker"	52.34497
+"male"	"indian"	178.5	73.099998	92	97.5	0.55000001	"yes"	"no"	"Not a current smoker"	59.21424
+"female"	"chinese"	159.95	69.5	82.5	106	1.22	"no"	"no"	"Not a current smoker"	60.3039
+"female"	"chinese"	163.3	67.199997	74	99	1.29	"no"	"yes"	"Not a current smoker"	19.82478
+"male"	"chinese"	169.45	81.900002	92.75	102	1.0599999	"no"	"yes"	"Not a current smoker"	47.98357
+"female"	"chinese"	165.8	59.5	70	97.5	1.6900001	"no"	"no"	"Not a current smoker"	31.35387
+"female"	"malay"	147	48.400002	61	96	1.4400001	"no"	"no"	"Not a current smoker"	35.93977
+"female"	"malay"	151.2	53.599998	75.5	90.25	1.08	"yes"	"no"	"Not a current smoker"	45.96304
+"male"	"chinese"	165.2	61	72	93	0.98000002	"yes"	"no"	"Not a current smoker"	64.45174
+"male"	"chinese"	163.85001	48.400002	66	87	1.41	"no"	"no"	"Not a current smoker"	58.38193
+"female"	"chinese"	154.8	62.900002	86	99.5	0.68000001	"no"	"no"	"Not a current smoker"	38.87201
+"female"	"chinese"	156.2	43.099998	67.5	86.5	1.26	"no"	"no"	"Not a current smoker"	68.46817
+"male"	"chinese"	162.85001	75.5	90	101	1.08	"no"	"no"	"Not a current smoker"	38.27515
+"female"	"malay"	145.2	56	70	98	1.3099999	"no"	"no"	"Not a current smoker"	47.36756
+"female"	"chinese"	153.89999	40.200001	60.25	84	1.85	"no"	"yes"	"Not a current smoker"	32.68446
+"female"	"chinese"	144.55	49	75	97	1.33	"no"	"no"	"Current smoker"	63.33196
+"female"	"chinese"	157.39999	74.699997	83.599998	98.599998	1.08	"yes"	"no"	"Current smoker"	37.20739
+"male"	"chinese"	166.05	52	73	86.5	1.33	"no"	"yes"	"Not a current smoker"	40.38604
+"male"	"chinese"	167.39999	64.900002	82.5	92	0.98000002	"no"	"no"	"Not a current smoker"	28.82409
+"female"	"malay"	151.10001	84.800003	113.5	128.5	1.26	"no"	"no"	"Not a current smoker"	67.40041
+"male"	"chinese"	173.95	70.900002	85.5	98	1	"no"	"no"	"Current smoker"	34.45311
+"female"	"indian"	149.5	53.700001	71	94.75	1.16	"yes"	"no"	"Not a current smoker"	57.0705
+"male"	"chinese"	173.60001	77.5	92.599998	102.55	0.83999997	"no"	"yes"	"Not a current smoker"	44.45722
+"male"	"indian"	154.05	53	75.75	88	1.15	"no"	"no"	"Not a current smoker"	59.17591
+"female"	"malay"	152.3	55.799999	63	95	1.98	"no"	"no"	"Not a current smoker"	31.77823
+"female"	"malay"	152.39999	53.799999	68	95	1.3	"no"	"no"	"Not a current smoker"	38.23409
+"female"	"chinese"	165.39999	57.299999	66	100	1.78	"no"	"no"	"Not a current smoker"	33.81793
+"female"	"malay"	155.75	46.099998	57.5	93	1.52	"no"	"no"	"Not a current smoker"	21.93292
+"male"	"chinese"	165.64999	62.099998	85	93	1	"no"	"no"	"Not a current smoker"	58.31896
+"female"	"indian"	158.5	66.199997	94.5	104.5	0.89999998	"no"	"no"	"Not a current smoker"	58.58179
+"male"	"malay"	168.3	64.599998	76.599998	97.550003	0.98000002	"no"	"no"	"Not a current smoker"	27.26078
+"male"	"malay"	154	68.099998	90	99.5	0.66000003	"no"	"no"	"Not a current smoker"	44.10951
+"female"	"malay"	147	63.400002	83.5	104.5	0.66000003	"no"	"no"	"Not a current smoker"	45.62902
+"female"	"malay"	150	53.5	65	96	1.4400001	"no"	"no"	"Not a current smoker"	21.76044
+"female"	"chinese"	147.55	52.099998	67	97	1.8	"no"	"no"	"Not a current smoker"	19.36756
+"male"	"chinese"	172.25	59	83.449997	91.550003	1.23	"no"	"yes"	"Not a current smoker"	52.02738
+"female"	"chinese"	154.85001	45.900002	63	90.25	1.78	"no"	"yes"	"Not a current smoker"	25.42642
+"male"	"malay"	177.3	58.400002	66	89	1.58	"no"	"no"	"Not a current smoker"	24.83231
+"female"	"chinese"	157.2	44.400002	62	88.25	1.7	"no"	"no"	"Not a current smoker"	41.91376
+"male"	"chinese"	156.2	52.299999	78	90	1.3099999	"no"	"no"	"Not a current smoker"	70.64203
+"male"	"malay"	155.45	60.599998	89.5	91	0.80000001	"yes"	"no"	"Current smoker"	66.38193
+"female"	"chinese"	148.7	42.599998	64	88	2.3099999	"no"	"no"	"Not a current smoker"	69.34155
+"male"	"malay"	159.3	100.3	111	118.5	0.37	"yes"	"no"	"Not a current smoker"	54.45585
+"female"	"chinese"	155	59.400002	77.099998	102.15	0.92000002	"no"	"no"	"Not a current smoker"	32.0575
+"male"	"malay"	171	50.299999	68.099998	88.050003	1.01	"no"	"no"	"Not a current smoker"	42.56536
+"female"	"malay"	147.2	51.5	74	92.5	1.34	"no"	"no"	"Not a current smoker"	47.1321
+"male"	"chinese"	169.2	66.5	81.5	95	0.95999998	"no"	"no"	"Not a current smoker"	49.28131
+"female"	"chinese"	151.3	54.700001	74	102.25	1.54	"no"	"yes"	"Not a current smoker"	61.18823
+"male"	"chinese"	164	85.400002	105.5	107	0.69	"no"	"no"	"Not a current smoker"	30.75154
+"female"	"chinese"	155.39999	42.599998	56.5	87	1.51	"no"	"no"	"Current smoker"	21.47844
+"male"	"malay"	166	66.400002	84	91.5	0.57999998	"no"	"no"	"Not a current smoker"	39.25257
+"female"	"chinese"	158	43.099998	58	88	1.4400001	"no"	"yes"	"Current smoker"	33.80972
+"female"	"chinese"	155.45	43.799999	68.25	92	1.54	"no"	"no"	"Not a current smoker"	40.0219
+"male"	"chinese"	167	61.200001	77	90.75	0.81999999	"no"	"no"	"Not a current smoker"	40.32581
+"male"	"chinese"	174.8	63.5	77.050003	95.400002	1.0700001	"no"	"no"	"Not a current smoker"	24.73922
+"male"	"chinese"	158.55	55.799999	77.75	88	1.17	"no"	"yes"	"Not a current smoker"	55.70431
+"female"	"malay"	148.5	67.800003	82.5	103	1.08	"no"	"no"	"Not a current smoker"	52.7091
+"male"	"chinese"	169.05	72.599998	84	100	1.29	"no"	"yes"	"Not a current smoker"	23.46338
+"male"	"chinese"	175.85001	68.5	77.25	95	1.26	"no"	"yes"	"Not a current smoker"	21.77139
+"male"	"chinese"	183	99.699997	107.5	110.5	0.82999998	"yes"	"no"	"Not a current smoker"	42.34634
+"male"	"chinese"	173	66	72	89	1.38	"no"	"yes"	"Not a current smoker"	27.08829
+"female"	"chinese"	153.39999	68.099998	84.5	103	1.24	"yes"	"yes"	"Not a current smoker"	52.79945
+"male"	"chinese"	171	46.5	59.5	85	1.28	"no"	"no"	"Not a current smoker"	22.22861
+"male"	"chinese"	165.5	69	84	100	1.16	"no"	"yes"	"Not a current smoker"	27.22519
+"female"	"chinese"	158.2	44.099998	62.049999	87.099998	1.5	"no"	"no"	"Not a current smoker"	26.23956
+"male"	"chinese"	168.05	65.5	86	91	1.1	"no"	"yes"	"Current smoker"	40.13142
+"female"	"chinese"	157.2	52.900002	67.75	93	1.61	"no"	"no"	"Not a current smoker"	34.14921
+"female"	"chinese"	153.10001	48.799999	66.75	92	1.4299999	"no"	"no"	"Not a current smoker"	40.26831
+"male"	"chinese"	171.55	74.699997	90	99	1.28	"yes"	"yes"	"Current smoker"	50.78987
+"male"	"indian"	161.35001	80.300003	105.5	105	1.3200001	"yes"	"no"	"Not a current smoker"	52.61328
+"male"	"chinese"	171.55	74.699997	90	98.25	0.60000002	"no"	"no"	"Current smoker"	34.2642
+"male"	"chinese"	166.95	79.800003	92	101.5	0.88999999	"no"	"no"	"Not a current smoker"	24.91444
+"male"	"malay"	156.10001	78.800003	94	104	1.2	"no"	"no"	"Not a current smoker"	62.28885
+"male"	"chinese"	177.10001	81.900002	92.099998	105.35	1.65	"no"	"no"	"Not a current smoker"	24.55578
+"male"	"indian"	168.8	82	104.75	100	1.15	"no"	"no"	"Current smoker"	53.38809
+"female"	"indian"	153.10001	60.900002	75	100	1.37	"no"	"no"	"Not a current smoker"	50.37919
+"female"	"chinese"	153.89999	54.299999	76	91	1.03	"no"	"yes"	"Not a current smoker"	54.45311
+"male"	"chinese"	168.2	60.599998	79	90	1.0700001	"no"	"no"	"Current smoker"	42.4668
+"female"	"indian"	166.10001	50.799999	71.75	93.5	1.58	"no"	"no"	"Not a current smoker"	25.55236
+"female"	"malay"	161.05	47.099998	60	88	1.41	"no"	"no"	"Not a current smoker"	25.46749
+"female"	"malay"	146.85001	63.799999	89.5	100	0.92000002	"no"	"no"	"Not a current smoker"	56.6872
+"male"	"indian"	162.25	54.900002	72.75	89	1.33	"no"	"no"	"Current smoker"	21.16359
+"male"	"indian"	171	61.5	80.5	93	0.94999999	"no"	"yes"	"Current smoker"	44.93908
+"male"	"indian"	170.95	96.300003	116.9	113.55	0.93000001	"yes"	"no"	"Not a current smoker"	32.81314
+"male"	"indian"	178.2	75.800003	94.5	100.5	1.02	"no"	"no"	"Not a current smoker"	57.11978
+"female"	"chinese"	160.7	54.799999	79	96.5	1.15	"no"	"no"	"Not a current smoker"	54.40657
+"male"	"indian"	157.2	60.900002	84.5	92	0.44999999	"no"	"no"	"Not a current smoker"	37.66461
+"female"	"indian"	155.60001	72.5	101	107	0.97000003	"yes"	"no"	"Not a current smoker"	63.21971
+"male"	"malay"	161.3	66.400002	91	95	1.09	"no"	"no"	"Not a current smoker"	56.97741
+"male"	"malay"	167.89999	80.900002	99	105	0.62	"no"	"no"	"Not a current smoker"	44.92266
+"female"	"chinese"	160.39999	67.599998	78.5	105	1.76	"no"	"no"	"Not a current smoker"	38.84189
+"male"	"malay"	167.85001	65.199997	82.5	98.5	1.1799999	"no"	"no"	"Not a current smoker"	48.24915
+"female"	"indian"	154.45	58	79.5	100	1.29	"no"	"no"	"Not a current smoker"	64.49829
+"male"	"indian"	169.8	70.400002	95	97.5	0.79000002	"no"	"no"	"Not a current smoker"	39.44422
+"female"	"chinese"	160.5	60.599998	77	100	0.85000002	"yes"	"no"	"Not a current smoker"	45.83436
+"male"	"malay"	156.7	69.400002	95	98.5	0.85000002	"yes"	"no"	"Not a current smoker"	68.32854
+"female"	"chinese"	151	63.799999	93	101	0.81	"no"	"no"	"Not a current smoker"	52.0219
+"male"	"chinese"	173.14999	61.099998	69.5	90.5	1.24	"no"	"yes"	"Not a current smoker"	32.45448
+"male"	"malay"	175	61.900002	71.25	94.5	1.12	"no"	"no"	"Not a current smoker"	42.98426
+"male"	"malay"	161.2	51.5	71.5	85	0.67000002	"no"	"no"	"Current smoker"	73.29227
+"female"	"chinese"	158.05	51.5	64	96	1.64	"no"	"no"	"Not a current smoker"	30.52704
+"female"	"malay"	157.5	66	80.550003	100.1	1.1799999	"no"	"no"	"Not a current smoker"	41.90554
+"male"	"indian"	172.2	75.099998	93.5	98.5	0.68000001	"no"	"yes"	"Not a current smoker"	40.14784
+"female"	"indian"	149.85001	50.400002	76.75	87	1.1799999	"no"	"no"	"Not a current smoker"	34.18754
+"female"	"chinese"	158.2	68.099998	81	102.5	1.14	"no"	"no"	"Not a current smoker"	59.32101
+"female"	"malay"	151.10001	69.599998	103	105.5	0.94999999	"no"	"no"	"Not a current smoker"	70.35729
+"male"	"malay"	165	58	74	91.5	0.93000001	"no"	"no"	"Not a current smoker"	44.16975
+"male"	"chinese"	161.60001	59.799999	76.5	93.5	0.91000003	"no"	"yes"	"Not a current smoker"	31.4141
+"female"	"chinese"	149.55	48.799999	66	96	1.52	"no"	"yes"	"Not a current smoker"	27.70157
+"female"	"chinese"	147.05	47	65	89	1.29	"no"	"no"	"Not a current smoker"	18.19028
+"female"	"chinese"	156.25	76.300003	92	111	1.11	"no"	"no"	"Current smoker"	51.52088
+"female"	"malay"	156.10001	76.599998	90.5	108.5	0.79000002	"no"	"no"	"Not a current smoker"	49.90554
+"male"	"chinese"	165.2	63.599998	80.5	92	0.94999999	"no"	"no"	"Not a current smoker"	43.64134
+"male"	"chinese"	172.3	65.699997	72.5	99	1.15	"no"	"yes"	"Not a current smoker"	27.9781
+"male"	"chinese"	160.2	67.699997	84	99	0.86000001	"yes"	"yes"	"Not a current smoker"	49.0705
+"female"	"indian"	147.85001	44.200001	62.5	88	1.23	"yes"	"no"	"Current smoker"	65.09788
+"male"	"indian"	166.45	59.700001	75	92	1.45	"no"	"no"	"Not a current smoker"	26.29158
+"female"	"malay"	159.10001	62.099998	71	102	1.4400001	"no"	"no"	"Not a current smoker"	30.11636
+"male"	"chinese"	165	58.400002	74	92	1.13	"no"	"yes"	"Not a current smoker"	25.90554
+"female"	"indian"	157.64999	67.5	77	101	1.11	"no"	"no"	"Not a current smoker"	42.0835
+"female"	"indian"	146	57.099998	77.5	101	1.92	"no"	"no"	"Current smoker"	52.39425
+"male"	"chinese"	168.39999	61.299999	76.75	91.25	1.23	"no"	"yes"	"Not a current smoker"	38.90212
+"male"	"chinese"	176	71.800003	86	96	0.75	"no"	"yes"	"Not a current smoker"	36.97741
+"male"	"malay"	159.39999	60.599998	88	92.5	0.73000002	"no"	"no"	"Not a current smoker"	59.436
+"female"	"chinese"	156.25	46.700001	60.5	94	1.61	"no"	"yes"	"Current smoker"	36.05202
+"female"	"chinese"	147	53.200001	89.5	103.5	1.3	"no"	"no"	"Current smoker"	67.12663
+"female"	"indian"	158.2	65.5	83.5	102	0.87	"no"	"no"	"Current smoker"	37.17728
+"male"	"malay"	164.89999	61.400002	72	90	1.4400001	"no"	"no"	"Not a current smoker"	47.22245
+"female"	"chinese"	159.2	47.900002	71.099998	88.550003	2.01	"no"	"no"	"Current smoker"	60.72279
+"female"	"indian"	146.5	61.700001	89.699997	102.5	0.69999999	"no"	"no"	"Not a current smoker"	44.93361
+"male"	"malay"	161.8	66.5	90.5	97	0.86000001	"yes"	"no"	"Not a current smoker"	59.6386
+"male"	"indian"	161.39999	74.800003	99.599998	101.15	0.89999998	"no"	"yes"	"Not a current smoker"	65.07323
