@@ -1,0 +1,305 @@
+---
+title: "Consulting Roleplay"
+author: "Daniel Fryer"
+date: "13 September 2016"
+output:
+  pdf_document:
+#    toc: true
+    includes:
+      in_header: header.tex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+### Importing data and defining BMI and WHR
+```{r}
+library(data.table)
+data.raw <- fread("2016_app_proj_group_4.txt")
+data.2 <- data.raw
+data.2[,"BMI"] <- data.raw$weight / (data.raw$height / 100)^2
+data.2[,"WHR"] <- data.raw$waist / data.raw$hip
+```
+
+### Fitting a quick linear model
+```{r}
+summary(all.lm <- lm(hdl~., data = data.2))
+```
+### Check res vs fits and normal scores
+```{r}
+par(mfrow = c(1,2), mex = 0.8, cex = 0.8)
+plot(all.lm, which = c(1,2))
+```
+### Try a quick poly fit
+```{r}
+summary(all.lm.poly <- lm(hdl ~ gender + 
+                            ethnic + 
+                            hypertension + 
+                            drink + 
+                            currsmoke + 
+                            BMI + I(BMI^2) + 
+                            WHR + I(WHR^2) + 
+                            age + I(age^2), 
+                            data = data.2))
+plot(all.lm.poly, which = c(1,2))
+```
+### Try a simpler poly fit removing high p-values
+```{r}
+summary(all.lm.poly.2 <- lm(hdl ~ gender + 
+                              ethnic + 
+                              hypertension + 
+                              BMI + I(BMI^2) +
+                              WHR + I(WHR^2) + 
+                              I(age^2),
+                              data = data.2))
+plot(all.lm.poly.2, which = c(1,2))
+```
+### Try a log response transformation fit
+```{r}
+summary(all.lm.poly.2.log <- lm(log(hdl) ~ gender + 
+                                  ethnic + 
+                                  hypertension + 
+                                  BMI + I(BMI^2) + 
+                                  WHR + I(WHR^2) + 
+                                  I(age^2), 
+                                  data = data.2))
+plot(all.lm.poly.2.log, which = c(1,2))
+```
+### Compare to the more complicated poly with log
+```{r}
+summary(all.lm.poly.log <- lm(log(hdl) ~ gender + 
+                                ethnic + 
+                                hypertension + 
+                                drink + 
+                                currsmoke + 
+                                BMI + I(BMI^2) + 
+                                WHR + I(WHR^2) + 
+                                age + I(age^2), 
+                                data = data.2))
+plot(all.lm.poly.log, which = c(1,2))
+```
+### Reduce complication of this poly again
+```{r}
+summary(all.lm.poly.3.log <- lm(log(hdl) ~  ethnic + 
+                                  hypertension + 
+                                  BMI + 
+                                  WHR + 
+                                  age + 
+                                  I(age^2), 
+                                  data = data.2))
+plot(all.lm.poly.3.log, which = c(1,2))
+```
+
+# START BEING BIT MORE SERIOUS
+
+## This one looked good
+```{r}
+summary(all.lm.poly.2 <- lm(hdl ~ gender + 
+                              ethnic + 
+                              hypertension + 
+                              BMI + I(BMI^2) +
+                              WHR + I(WHR^2) + 
+                              I(age^2),
+                              data = data.2))
+```
+# Try the log of this one
+```{r}
+summary(all.lm.poly.2.log <- lm(log(hdl) ~ gender + 
+                              ethnic + 
+                              hypertension + 
+                              BMI + I(BMI^2) +
+                              WHR + I(WHR^2) + 
+                              I(age^2),
+                              data = data.2))
+plot(all.lm.poly.2.log, which = c(1,2))
+```
+#Try the sqr root
+```{r}
+summary(all.lm.poly.2.sqrt <- lm(sqrt(hdl) ~ gender + 
+                              ethnic + 
+                              hypertension + 
+                              BMI + I(BMI^2) +
+                              WHR + I(WHR^2) + 
+                              I(age^2),
+                              data = data.2))
+plot(all.lm.poly.2.sqrt, which = c(1,2))
+```
+
+Actually I think the square root one looks better.
+# How about this square root version:
+```{r}
+summary(lm.poly.4.sqrt <- lm(sqrt(hdl) ~ #gender + 
+                            ethnic + 
+                            hypertension + 
+#                            drink + 
+#                            currsmoke + 
+                            BMI + 
+                            I(BMI^2) + 
+                            WHR + 
+                            I(WHR^2) + 
+#                            age + #this improves R^2 but lowers other p-vals 
+                            I(age^2)
+                            , 
+                            data = data.2))
+plot(lm.poly.4.sqrt, which = c(1,2))
+```
+#Have a look at the influential measures summary points
+```{r}
+summary(inf.mes <- influence.measures(lm.poly.4.sqrt))
+```
+The hat matrix cut off is
+```{r}
+k <- 7 #is this correct? Do I include
+n <- 425
+hat.cutoff <- 2*(k + 1)/n
+```
+The cooks distances are all pretty low but there are plenty of values above the hat matrix cut off.
+
+## What if we remove 3,47,115,126,133,152,207,231,286,313,336,368,377?
+
+Note that those above 0.1 are: 126,152,231,336.
+```{r}
+data.3 <- data.2[-c(3,47,115,126,133,152,207,231,286,313,336,368,377)]
+summary(lm.poly.5.sqrt <- lm(sqrt(hdl) ~ #gender + 
+                            ethnic + 
+                            hypertension + 
+#                            drink + 
+#                            currsmoke + 
+                            BMI + 
+                            I(BMI^2) + 
+                            WHR + 
+#                            I(WHR^2) + 
+#                            age + #this improves R^2 but lowers other p-vals 
+                            I(age^2)
+                            , 
+                            data = data.3))
+plot(lm.poly.5.sqrt, which = c(1,2))
+```
+
+## What if we remove EVERY influential data point
+
+Removing: 3,22,47,76,115,126,133,143,152,170,207,231,266,279,286,313,321,334,335,336,367,368,377,380,393,409,414,422
+```{r}
+data.3 <- data.2[-c(3,22,47,76,115,126,133,143,152,170,207,231,266,279,286,313,321,334,335,336,367,368,377,380,393,409,414,422)]
+summary(lm.poly.5.sqrt <- lm(sqrt(hdl) ~ #gender + 
+                            ethnic +  #interestingly, ethnic is now a contributor
+                            hypertension + 
+                            drink + #drink is also more influential now
+#                            currsmoke + 
+                            BMI + 
+                            I(BMI^2) + 
+                            WHR + 
+#                            I(WHR^2)
+#                            age + #this improves R^2 but lowers other p-vals 
+                            I(age^2), 
+                            data = data.3))
+plot(lm.poly.5.sqrt, which = c(1,2))
+```
+This is good, but it can't be good practice... right?
+It is interesting that drink is now more influential and so is ethnic. Age doesnt seem to lower the other p-values as much when it is removed, and removing it improves R^2 still.
+
+I suggest we carefully examine all the values that we removed. I'll try including them one at a time and see which ones dont have a negative effect:
+
+# Investigating inclusion of some data points gives:
+```{r}
+data.4 <- data.2[-c(22,76,115,133,143,152,170,207,231,266,279,286,336,367,368,377,393,409,414,422)]
+summary(lm.poly.6.sqrt <- lm(sqrt(hdl) ~ #gender + 
+                            ethnic +  #interestingly, ethnic is now a contributor
+                            hypertension + 
+                            drink + #drink is also more influential now
+#                            currsmoke + 
+                            BMI + 
+                            I(BMI^2) + 
+                            WHR + 
+#                            I(WHR^2)
+#                            age + #this improves R^2 but lowers other p-vals 
+                            I(age^2), 
+                            data = data.4))
+plot(lm.poly.6.sqrt, which = c(1,2))
+```
+\newpage
+
+# Interesting: What is it about the following data points?
+1. Including the following data points seems to improve the model or p-values a lot (these were originally removed): 3,47,126,207,313,321,334,335,380.
+
+2. The data points that we have removed all have a big effect on p-values or the fit when included: 22,76,115,133,143,152,170,207,231,266,279,286,336,367,368,377,393,409,414,422
+
+3. Ethnicity has become more significant, and so has drink. BMI, WHR, and their squares are all now highly significant.
+
+# Important questions
+1. Should we include categorical variables in the value $k$ for the hat matrix cutoff?
+2. Why does removing some variables increase/decrease the other p-values? Shouldn't p-values be "controlling for other variables."
+3. What is a good way to go about exploring models?
+4. If a square root response transformation is appropriate, then should the influence measures be taken of the transformed model or the original?
+5. Can we use the removed data points as test data for prediction intervals?
+
+# Worthy of investigation
+1. Maybe BMI, WHR, smoke, drink, etc are more significant among certain ethnic groups than others.
+2. Some of the predictors (i.e., BMI) are very significant but the actual contribution seems miniscule and irrelevant. These are roots though so larger when squared.
+3. The most significant categorical variable is ethnicity, but maybe we are making use of these the wrong way.
+4. Lets look at the data and see how fairly we have selected from different categories.
+5. The current model doesnt have any interaction terms. Currently we have "parallel regression lines" for the categorical variables. Including interaction terms will allow "unrelated regression lines."
+
+\newpage
+
+# What if we look at influence measures of the original poly model?
+
+```{r}
+summary(inf.mes <- influence.measures(all.lm.poly))
+```
+These are all the same as when we did it for the square root model. SO this answers that problem.
+
+# Lets look at the predictive strength and conf ints of the model:
+
+## Confidence intervals lm.poly.6.sqrt:
+```{r}
+confint(lm.poly.6.sqrt)
+```
+
+## Press and R^2 pred statistic comparison
+### Latest model:
+```{r}
+library(MPV)
+SST.1 <- var(data.4$hdl)*(length(data.4$hdl) - 1) #=s_y^2 (n-1)
+PRESS.1 <- PRESS(lm.poly.6.sqrt)
+R.sq.pred.1 <- 1 - PRESS.1/SST.1
+R.sq.pred.1
+```
+### Oldest model
+```{r}
+SST.2 <- var(data.2$hdl)*(length(data.2$hdl) - 1) #=s_y^2 (n-1)
+PRESS.2 <- PRESS(all.lm.poly)
+R.sq.pred.2 <- 1 - PRESS.2/SST.2
+R.sq.pred.2
+```
+### Latest model before removal of influential data
+```{r}
+PRESS.3 <- PRESS(lm.poly.4.sqrt)
+R.sq.pred.3 <- 1 - PRESS.3/SST.2
+R.sq.pred.3
+```
+
+Good to see some improvement after removing the influential values.
+BUT WHY IS IT HIGHER THAN THE R^2 DID WE CALCULATE IT RIGHT??
+
+\newpage
+
+## Lets look at how some categorical variables affect slopes (ANCOVA)
+
+```{r}
+summary(lm.poly.6.sqrt <- lm(sqrt(hdl) ~ #gender + 
+                            ethnic +  #interestingly, ethnic is now a contributor
+                            hypertension + 
+                            drink + #drink is also more influential now
+#                            currsmoke + 
+                            BMI + 
+                            hypertension:BMI +
+                            drink:WHR +
+#                            hypertension:currsmoke:drink + WHATS WITH THIS ONE??
+                            I(BMI^2) + 
+                            WHR + 
+#                            I(WHR^2)
+#                            age + #this improves R^2 but lowers other p-vals 
+                            I(age^2), 
+                            data = data.4))
+plot(lm.poly.6.sqrt, which = c(1,2))
