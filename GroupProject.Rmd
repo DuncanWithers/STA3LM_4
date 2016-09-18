@@ -52,13 +52,19 @@ health.data <- model.matrix(~ gender + ethnic + hypertension + drink + currsmoke
 
 #health.data <- health.raw[reqFields]
 
-health.lm <- lm(hdl~.,data=health.data)
+hd <- data.frame(health.data[,])
+health.lm <- lm(hdl~.,data=hd)
 summary(health.lm)
 
 
 #interesting bits of code
-hd <- data.frame(health.data[,])
+
+library(leaps)
 a<-regsubsets(as.matrix(hd[,c(-1,-11)]),hd[,11])
 summary(a)
+
+library(MASS)
+step <- stepAIC(health.lm, direction = "both")
+step$anova
 
 ```
