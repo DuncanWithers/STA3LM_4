@@ -63,8 +63,18 @@ library(leaps)
 a<-regsubsets(as.matrix(hd[,c(-1,-11)]),hd[,11])
 summary(a)
 
+
 library(MASS)
 step <- stepAIC(health.lm, direction = "both")
 step$anova
+
+
+# Bootstrap and plot relative importance
+library(relaimpo)
+boot <- boot.relimp(health.lm, b = 1000, type = c("lmg",
+                    "last", "first", "pratt"), rank = TRUE,
+                    diff = TRUE, rela = TRUE)
+booteval.relimp(boot) # print result
+plot(booteval.relimp(boot,sort=TRUE)) # plot result 
 
 ```
