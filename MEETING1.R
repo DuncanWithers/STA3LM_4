@@ -7,7 +7,8 @@ data.2[,"WHR"] <- data.raw$waist / data.raw$hip
 
 data.2 <- data.2[-22]
 
-data.2 <- subset(data.2, select = -c( 3:5 ))
+# delete weight height waist hip
+data.2 <- subset(data.2, select = -c( 3:6 ))
 
 #health.data <- model.matrix(~., data = data.2)
 
