@@ -53,6 +53,17 @@ boot <- boot.relimp(health.lm, b = 1000, type = c("lmg",
                     "last", "first", "pratt"), rank = TRUE,
                     diff = TRUE, rela = TRUE)
 booteval.relimp(boot) # print result
-plot(booteval.relimp(boot,sort=TRUE)) # plot result 
+plogit(booteval.relimp(boot,sort=TRUE)) # plot result 
+
+# Additional squared bootstrap model 
+# have to exclude IsIndian:IsMalay as interaction term is undefined
+# **WARNING** these lines of code take **FOREVER** to run
+# Additionally they can only work on a 64bit version of R 
+# becasue of memory allocation issues at 2GB with 32bit version
+health.lm <- lm(hdl~(.-intercept)^2 - IsIndian:IsMalay ,data=hd)
+boot <- boot.relimp(health.lm, b = 1000, type = c("lmg"), rank = TRUE,
+                    diff = TRUE, rela = TRUE)
+booteval.relimp(boot) # print result
+plogit(booteval.relimp(boot,sort=TRUE)) # plot result 
 
 ```
