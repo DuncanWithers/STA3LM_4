@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Group Project\"\nauthor: \n- \"Duncan Withers\"\n- \"Add Your name here\"\ndate: \"12 September 2016\"\noutput: pdf_document\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n```{r importData}\n# import data\nhealth.raw <- read.delim(\"./2016_app_proj_group_4.txt\")\n\n#Create derived variables\n# BMI:  The BMI is defined as the body mass divided by the square of the body height\nhealth.raw$BMI <- health.raw$weight / (health.raw$height/100)^2\n\n# WHR: The waist-to-hip ratio  is defined as the waist measurement divided by hip measurement (W ÷ H)\nhealth.raw$WHR <- health.raw$waist / health.raw$hip\n\n# Create the model using the model.matrix method\nhealth.data <- model.matrix(~ gender + ethnic + hypertension + drink + currsmoke + age + BMI + WHR +  hdl, data = health.raw)\n\n#health.data <- health.data[reqFields]\n\nhd <- data.frame(health.data[,])\nhealth.lm <- lm(hdl~.,data=hd)\nsummary(health.lm)\n\n\n#interesting bits of code\n\nlibrary(leaps)\na<-regsubsets(as.matrix(hd[,c(-1,-11)]),hd[,11])\nsummary(a)\n\n\nlibrary(MASS)\nstep <- stepAIC(health.lm, direction = \"both\")\nstep$anova\n\n\n# Bootstrap and plot relative importance\nlibrary(relaimpo)\n\n# rejig the model because with the intercept it fails with error\nhealth.lm <- lm(hdl~.-intercept,data=hd)\nboot <- boot.relimp(health.lm, b = 1000, type = c(\"lmg\",\n                    \"last\", \"first\", \"pratt\"), rank = TRUE,\n                    diff = TRUE, rela = TRUE)\nbooteval.relimp(boot) # print result\nplot(booteval.relimp(boot,sort=TRUE)) # plot result \n\n```",
+    "created" : 1474333831973.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4211654199",
+    "id" : "A67CC393",
+    "lastKnownWriteTime" : 1474333841,
+    "last_content_update" : 1474333841557,
+    "path" : "~/STA3LM/GroupProject/GroupProject.Rmd",
+    "project_path" : "GroupProject.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

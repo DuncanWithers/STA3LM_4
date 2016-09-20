@@ -25,7 +25,7 @@ health.raw$WHR <- health.raw$waist / health.raw$hip
 # Create the model using the model.matrix method
 health.data <- model.matrix(~ gender + ethnic + hypertension + drink + currsmoke + age + BMI + WHR +  hdl, data = health.raw)
 
-health.data <- health.data[reqFields]
+#health.data <- health.data[reqFields]
 
 hd <- data.frame(health.data[,])
 health.lm <- lm(hdl~.,data=hd)
